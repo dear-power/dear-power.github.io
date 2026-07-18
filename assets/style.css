@@ -1,0 +1,107 @@
+:root {
+  --ink: #1a1a1a;
+  --paper: #f7f5ef;
+  --muted: #6b6b6b;
+  --rule: #d9d4c7;
+  --accent: #7a1f1f;
+  --measure: 40rem;
+}
+
+* { box-sizing: border-box; }
+
+html { font-size: 18px; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+main, .site {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Header — a letterhead */
+header.site {
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--rule);
+  margin-bottom: 2.5rem;
+}
+.brand {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: var(--ink);
+  text-decoration: none;
+}
+.tagline {
+  margin: 0.25rem 0 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+header.site nav a {
+  margin-right: 1.25rem;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  text-decoration: none;
+}
+header.site nav a:hover { color: var(--accent); }
+
+/* Links */
+a { color: var(--accent); }
+
+/* Post list — an index of dispatches */
+.post-list { list-style: none; padding: 0; margin: 0; }
+.post-list li {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--rule);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1rem;
+}
+.post-list time {
+  color: var(--muted);
+  font-size: 0.8rem;
+  min-width: 6.5rem;
+}
+.post-list a { text-decoration: none; font-size: 1.15rem; }
+.post-list a:hover { text-decoration: underline; }
+.addressee { color: var(--muted); font-style: italic; font-size: 0.9rem; }
+.empty { color: var(--muted); font-style: italic; }
+
+/* Post */
+.post-title { font-size: 2rem; line-height: 1.2; margin: 0 0 0.4rem; }
+.post-meta { color: var(--muted); font-size: 0.85rem; margin: 0 0 2rem; }
+.post p { margin: 0 0 1.3rem; }
+.post blockquote {
+  margin: 1.5rem 0;
+  padding-left: 1.2rem;
+  border-left: 3px solid var(--accent);
+  color: #333;
+  font-style: italic;
+}
+.signoff { margin-top: 2.5rem; font-style: italic; color: var(--muted); }
+
+/* Footer */
+footer.site {
+  margin-top: 4rem;
+  padding: 1.5rem 1.5rem 3rem;
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+@media (max-width: 480px) {
+  html { font-size: 17px; }
+  .brand { font-size: 1.6rem; }
+}

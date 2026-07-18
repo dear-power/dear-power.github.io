@@ -1,0 +1,25 @@
+title: Dear Power
+tagline: Honest feedback to those in power.
+description: >-
+  An open letter to power. Honest feedback, addressed — not negotiated.
+lang: en
+
+# Project site served at https://dear-power.github.io
+url: "https://dear-power.github.io"
+baseurl: ""
+
+permalink: /:year/:month/:day/:title/
+timezone: Europe/Madrid
+
+# GitHub Pages natively supports jekyll-feed (generates /feed.xml).
+plugins:
+  - jekyll-feed
+
+# jekyll-feed settings
+feed:
+  path: feed.xml
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
