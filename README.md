@@ -1,10 +1,9 @@
 # Dear Power
 
 An open letter to power — honest feedback to those in power. Static blog
-(Jekyll), published from git. Part of the mesh: the chronos project
-`political-blog` tracks it.
+(Jekyll), published from git.
 
-## Publish a dispatch (the imprint → publish pipeline)
+## Publish a dispatch
 
 Add a markdown file under `_posts/`:
 
