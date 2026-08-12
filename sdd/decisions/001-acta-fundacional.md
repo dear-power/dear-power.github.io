@@ -66,6 +66,4 @@ Lo acordado con el humano (los gates resueltos, las decisiones de forma, los lí
 ## Consecuencias
 
 - Estructura futura: `sdd/cartas/<slug>/` (una carpeta por carta, con manifest, verificación, lecturas, red-team, síntesis, acuerdos, observables, borrador), `sdd/dominios.yaml` (registro de lentes), `sdd/destinatarios.yaml` (a quién corresponde el feedback), `sdd/.agents/skills/dp-*/` (las skills del árbol). Se construye por fases, validando cada fase contra el caso real de la frontera sur.
-- No se adoptan (por ahora): submódulos git, despacho por GitHub Actions, integración con ciclos automáticos. Todo es invocable a mano. La automatización llega cuando un caso real la pida.
-- El registro durable de decisiones migra de herramientas externas a este repo; los issues externos quedan como índice.
 - Los dominios crecen una rama por caso real, no por taxonomía a priori.
