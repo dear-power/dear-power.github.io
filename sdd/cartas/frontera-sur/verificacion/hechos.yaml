@@ -1,0 +1,219 @@
+# hechos.yaml — verificación re-levantada desde cero (2026-08-11)
+# Herramienta: buscador web local (metabuscador). Ninguna cifra heredada del
+# material previo. Procedencia declarada por fuente (oficial / afín / hostil /
+# independiente / regional). Transcripción literal del acta del ensemble.
+#
+# NOTA (acuerdo 003, propuesto): esta capa nombra emisores y medios porque una
+# verificación sin emisor no es verificable. La carta final abstrae.
+
+veredicto_global: >
+  Las leyes destiladas por el preview AGUANTAN sobre hechos re-levantados desde
+  cero. (c) MEDICION es la mas solida: no existe ni un solo contador
+  independiente del flujo del 30-jul; toda cifra procede de una parte
+  interesada y las cifras oficiales se contradicen entre si el mismo periodo.
+  (b) INMUNIDAD aguanta: la STS 814/2026 (dictada 29-jun-2026) solo cambia el
+  procedimiento; al viajar por redes se convirtio en "no hay deportacion
+  inmediata" -> "frontera abierta el 15 de agosto", mensaje sin contenido
+  falsable en su nucleo. (a) RENTA se sostiene por indeterminacion causal
+  documentada. (d) VISIBILIDAD tambien: la ruta Argelia-Baleares (11.000
+  llegadas en año y medio) NUNCA fue "crisis"; el espigon del Tarajal en 48h
+  si. Caen cinco afirmaciones del guion (ver citas_que_caen); ninguna invalida
+  las leyes, pero obligan a reescribir el pasaje numerico.
+
+vacio_estructural: >
+  CONFIRMADO. No existe ningun contador independiente del flujo del
+  30-jul-2026. Todas las cifras proceden de partes con interes: Ministerio del
+  Interior, Gobierno de la Ciudad Autonoma de Ceuta, autoridades marroquies,
+  "fuentes oficiales" filtradas a medios. Frontex SI aparece en el episodio
+  pero SOLO para la ruta Argelia-Baleares; no emitio recuento propio del cruce.
+  Sin recuento discreto de FRA, ACNUR ni OIM. El hecho que dispara la crisis
+  carece de arbitro numerico externo: condicion de posibilidad de la ley de la
+  medicion.
+
+citas_que_caen:
+  - cae: "cifras oficiales de ~50.000 entradas y ~70.000 salidas el mismo dia"
+    realidad: >
+      El par documentado es 72.000 entradas / 70.000 salidas, emitido por
+      Marlaska (Interior) el 4-ago-2026, no simultaneo al cruce. No se localiza
+      fuente para "50.000 entradas". La incoherencia real y sostenible es
+      tripartita: Interior 72.000/70.000 -> ~2.000 quedan; Gobierno de Ceuta
+      ~10.000 siguen en la ciudad (11-ago); El Correo "entre 1.500 y 2.000 en
+      diez dias" (30-jul). Tres cifras del mismo hecho que difieren hasta 50x:
+      eso ES la ley de la medicion, y no necesita el "50.000".
+  - cae: "un titular que se doblo de ~20.000 a ~40.000 conservando la URL vieja"
+    realidad: >
+      NO VERIFICABLE. Se confirma el titular "Mas de 20.000 personas entraron
+      en Ceuta este jueves 30 de julio" (El Confidencial Digital), pero no una
+      version a ~40.000 en la misma URL ni evidencia de edicion silenciosa.
+      La pieza no debe apoyarse en este ejemplo; la cifra movil ya queda
+      probada por la horquilla 1.500 -> 20.000 -> 72.000 entre medios y por dia.
+  - cae: "horquilla de muertos entre once y ochenta y ocho"
+    realidad: >
+      El extremo inferior 11 no se confirma (minimo hallado: 18, recuento
+      español temprano, 31-jul). El superior real supera 88: Cadena SER/Antena3
+      dan 141 sumando aguas marroquies (78 ES + 63 MA); Gobierno de Ceuta 88;
+      Guardia Civil 83. Horquilla honesta: "entre dieciocho y ciento cuarenta y
+      uno, segun quien cuente y que aguas se cuenten". El ajuste REFUERZA la ley.
+  - cae: "STS difundida ~8-jul-2026"
+    realidad: >
+      Solo consta DICTADA el 29-jun-2026 (explicada 5-ago). Enunciar "norma
+      semanas anterior al foco mediatico, que llego con el cruce del 30-jul",
+      sin fechar la difusion.
+  - cae: "Ceuta +210%"
+    realidad: >
+      Con precision: "Ceuta Y Melilla, entradas por via TERRESTRE, +210%"
+      (2.366 personas a 31-may-2026), no solo Ceuta ni todas las vias.
+
+tabla:
+  - afirmacion: >
+      El Tribunal Supremo dicto sentencia (STS 814/2026) que obliga a aplicar
+      el procedimiento ordinario -con asistencia juridica e interprete- en vez
+      del rechazo en frontera a quien entra a nado, por no superar un "elemento
+      de contencion fisico"
+    fuente: "Maldita.es (independiente/fact-check); El Correo (afin-centro); Europa Press (agencia); Confilegal (juridico)"
+    fecha: "dictada 29-jun-2026; explicada 5-ago-2026"
+    aguanta: si
+    url: "https://maldita.es/desinfo/20260805/sentencia-tribunal-supremo-devoluciones-caliente-ceuta-melilla/"
+    nota: >
+      Verbatim STS via Maldita: no cabe rechazo "a quienes cruzan a nado, ya
+      que no superan ninguna barrera fisica"; devolucion (art. 58.3b Ley de
+      Extranjeria) "en un maximo de 72 horas" con "identificacion, asistencia
+      juridica y las garantias". Si se instalan "elementos de contencion
+      fisicos en el mar" volveria a caber el rechazo. ROJ: STS 2965/2026
+      (Confilegal). La "difusion 8-jul" NO se confirma.
+
+  - afirmacion: >
+      Existe la Instruccion 9/2026 de la Secretaria de Estado de Seguridad que
+      ordena instalar barreras/boyas maritimas en Ceuta y Melilla para poder
+      devolver a quienes crucen a nado
+    fuente: "Andalucia Informacion (regional); Moncloa.com (afin-derecha); TheObjective + esdiario (hostil al Gobierno, via sindicato Jupol)"
+    fecha: "firmada 1-ago-2026; difundida 4-5 ago"
+    aguanta: si
+    url: "https://www.andaluciainformacion.es/articulo/espana/interior-incluye-melilla-instalacion-barreras-maritimas-devoluciones-migrantes-que-crucen-nado/202608041525313448551.html"
+    nota: >
+      Define el mar como "frontera natural entre Estados" y "elemento natural
+      de contencion". Jupol la tacho de "propaganda". Barrera neumatica de
+      500 m operativa desde el 2-ago.
+
+  - afirmacion: >
+      Interior publico cifras incoherentes: 72.000 entradas y 70.000 salidas
+      (Marlaska, 4-ago), frente a "entre 1.500 y 2.000 en diez dias" (El
+      Correo, 30-jul) y ~10.000 "todavia en la ciudad" (Gobierno de Ceuta,
+      11-ago)
+    fuente: "Capital.es/Europa Press (oficial via agencia); El Correo (cronica); Maldita.es (Vivas)"
+    fecha: "30-jul a 11-ago-2026"
+    aguanta: si
+    url: "https://capital.es/actualidad/interior-cifra-en-72-000-los-migrantes-que-entraron-en-ceuta-y-dice-que-70-000-retornaron/204731/"
+    nota: "La cifra '50.000 entradas' del guion NO se localiza en ninguna fuente."
+
+  - afirmacion: >
+      La cifra de muertos varia segun quien cuenta: 18 (temprana) -> 83
+      (Guardia Civil) -> 88 (Gobierno de Ceuta) -> 141 (Cadena SER, sumando
+      aguas marroquies)
+    fuente: "El Periodico/ABC-EFE (88); El Imparcial (83); Cadena SER + Antena3 (141: 78 aguas ES + 63 MA); Inmigracion y Visas (18)"
+    fecha: "31-jul a 5-ago-2026"
+    aguanta: parcial
+    url: "https://www.elperiodico.com/es/politica/20260803/ceuta-88-muertos-entrada-masiva-migrantes-espana-marruecos-133051120"
+    nota: >
+      La HORQUILLA es real y depende del emisor y de que aguas se cuentan.
+      El "11" del guion no se confirma; el maximo supera 88. Rango honesto:
+      ~18 -> 83-88 (lado ES) -> 141 (ambos lados).
+
+  - afirmacion: >
+      Variacion interanual a 31-may-2026: total nacional -35,2% (10.224 vs
+      15.769); Canarias -71% (3.184); Ceuta y Melilla via terrestre +210%
+      (2.366)
+    fuente: "Europa Press / 20minutos (sobre balance del Ministerio del Interior)"
+    fecha: "datos a 31-may-2026; publicado 1-jun-2026"
+    aguanta: si
+    url: "https://www.20minutos.es/nacional/bajan-un-35-las-llegadas-irregulares-migrantes-espana-2026-pero-suben-un-210-ceuta-melilla_6977812_0.html"
+    nota: "Matiz obligatorio: Ceuta Y Melilla juntas y solo via TERRESTRE."
+
+  - afirmacion: >
+      El pico del cruce fue el jueves 30-jul-2026, en coincidencia con la
+      Fiesta del Trono marroqui (1.778 indultos reales anunciados el 29-jul)
+    fuente: "Maldita.es (cronologia); ABC, RTVE, El Correo"
+    fecha: "29-30 jul-2026"
+    aguanta: si
+    url: "https://maldita.es/especial-ceuta-marruecos/"
+    nota: >
+      Cruce masivo la madrugada/mañana del 30-jul desde Fnideq/Belyounech
+      hacia el espigon del Tarajal. HECHO VERIFICADO pero OMITIDO de la carta
+      por acuerdo 002 (iman de sobreatribucion; ninguna ley lo necesita).
+
+  - afirmacion: >
+      La sentencia se transformo en redes en "la frontera esta abierta / no hay
+      deportacion inmediata" y en "España abre la frontera el 15 de agosto"
+    fuente: "Maldita.es (investigacion)"
+    fecha: "6-7 ago-2026"
+    aguanta: si
+    url: "https://maldita.es/investigaciones/20260806/tribunal-supremo-sentencia-ceuta-marruecos-facebook/"
+    nota: >
+      Maldita rastrea "como un mismo mensaje la disparo en Facebook en
+      Marruecos el 30J"; el nucleo ("no hay deportacion inmediata") no es
+      falsable; lo unico falsable ("España abre el 15-ago durante 15 horas")
+      fue desmentido el 7-ago.
+
+  - afirmacion: >
+      Hay convocatoria/movilizacion en redes para una nueva entrada masiva el
+      15-ago-2026
+    fuente: "Maldita.es (VERDADERO, monitoriza 21 grupos); Telecinco; Cronica Balear"
+    fecha: "3-8 ago-2026"
+    aguanta: si
+    url: "https://maldita.es/investigaciones/20260807/antes-30-julio-organizo-entrada-ceuta-grupos-de-facebook/"
+    nota: >
+      VERDADERO que hay grupos organizando entrada el 15-ago, y la entrada del
+      30-jul "se organizo antes del 30 de julio" (clave: los organizadores
+      PRECEDEN al desmentido). Ceuta pidio refuerzos (8-ago); Defensa cancelo
+      permisos desde el 13-ago (10-ago). Distinto y FALSO: que el Estado vaya
+      a "abrir la frontera".
+
+  - afirmacion: >
+      La frontera con Argelia lleva años en ruptura y la ruta Argelia-Baleares
+      suma mas de 11.000 llegadas en año y medio, sin ser nunca "crisis"
+    fuente: "Diario de Mallorca / Diario de Ibiza (regional); El Español (afin-derecha, cita Frontex)"
+    fecha: "28-jul y 3-ago-2026"
+    aguanta: parcial
+    url: "https://www.diariodemallorca.es/mallorca/2026/07/28/ruta-migratoria-argelia-baleares-consolida-132878990.html"
+    nota: >
+      CONFIRMADO: "11.000 llegadas en un año y medio", "realidad estructural",
+      nunca titulada crisis; "Frontex alerta del desvio a Baleares por la ruta
+      argelina, que crece al 17%". PARCIAL: el mecanismo concreto de
+      no-readmision de nacionales no se cita textual; apoyarse solo en la
+      ruptura diplomatica confirmada (2021/2022-2026, relanzada 20-jul-2026).
+
+  - afirmacion: >
+      Interior declaro que Marruecos coopera "de manera leal y permanente"
+      en plena avalancha
+    fuente: "El Correo (Melchor Saiz-Pardo), sobre comunicado oficial de Interior"
+    fecha: "30-jul-2026"
+    aguanta: si
+    url: "https://www.elcorreo.com/politica/marlaska-destaca-ejemplar-colaboracion-marruecos-plena-avalancha-20260730153721-ntrc.html"
+    nota: >
+      VERBATIM: coopera "de manera leal y permanente con España" y colabora
+      "estrechamente"; "ejemplar colaboracion... incluido en materia
+      migratoria"; las fuerzas marroquies han "impedido miles de intentos".
+      Contraste: "fuentes de la seguridad del Estado" vinculan el episodio a
+      represalia por la visita de Sanchez a Argel (20-jul); el Gobierno lo niega.
+
+  - afirmacion: >
+      No existe contador independiente del flujo del 30-jul (Frontex/FRA/
+      ACNUR/OIM); toda cifra es de parte
+    fuente: "sintesis del levantamiento; Frontex solo aparece para la ruta Argelia-Baleares (El Español)"
+    fecha: "30-jul a 11-ago-2026"
+    aguanta: si
+    url: "https://www.elespanol.com/espana/politica/20260803/no-solo-ceuta-no-marruecos-frontex-alerta-desvio-baleares-ruta-argelina-crece/1003744338731_0.html"
+    nota: "VACIO CONFIRMADO. Condicion estructural de la ley de la medicion."
+
+  - afirmacion: >
+      Analistas y el propio marco factico sostienen que Marruecos "no pudo
+      orquestar" operativamente la crisis (indeterminacion causal)
+    fuente: "Le Grand Continent (analisis europeo); RTVE (publico)"
+    fecha: "5-7 ago-2026"
+    aguanta: si
+    url: "https://legrandcontinent.eu/es/2026/08/05/por-que-marruecos-no-orquesto-la-crisis-de-ceuta/"
+    nota: >
+      "Por que Marruecos no pudo orquestar la crisis de Ceuta"; RTVE plantea
+      "intencionalidad o incapacidad". La causalidad es genuinamente
+      indeterminada. OJO (red-team): no usar para cerrar un circulo de
+      inocencia — prueba indeterminacion, no ausencia de mano.

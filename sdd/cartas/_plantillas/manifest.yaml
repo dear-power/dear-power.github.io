@@ -1,0 +1,39 @@
+# manifest.yaml — estado operativo de una carta (fuente de verdad, ADR-001 §5)
+# Un agente que retoma la carta lee ESTE fichero primero: le dice dónde está
+# la carta y qué puede hacer a continuación. Ningún paso procede con un
+# PENDING abierto.
+
+slug: <slug-de-la-carta>
+titulo: "<título de trabajo — puede tener PENDING>"
+
+# Máquina de estados. Avance solo hacia delante; cada transición la ejecuta
+# la skill correspondiente del árbol (ADR-001).
+#   motivo       → hay algo que decir; aún sin encargo
+#   encargado    → encargo.md escrito (dominios, destinatario, límites)
+#   verificado   → verificacion/hechos.yaml completo; citas-que-caen registradas
+#   leido        → lecturas/<dominio>.md, una por lente del encargo
+#   contrastado  → redteam/<flanco>.md, mínimo dos flancos opuestos
+#   sintetizado  → sintesis.md + observables.yaml escritos
+#   pactado      → todos los gates humanos resueltos en acuerdos/; cero PENDING
+#   borrador     → borrador.md escrito conforme a acuerdos y blindajes
+#   aprobado     → gate humano: el borrador puede publicarse
+#   publicado    → post en el blog, con enlace a esta carpeta (procedencia)
+#   en-vigilia   → observables con fecha pendientes de vencer
+#   cerrado      → todos los observables resueltos y seguimiento publicado si tocaba
+estado: motivo
+
+destinatarios: []        # claves de destinatarios.yaml
+dominios: []             # claves de dominios.yaml (lentes)
+flancos: []              # claves de dominios.yaml (flancos)
+
+# Decisiones aún abiertas que bloquean el avance. Cada una con opciones y
+# recomendación en el fichero que la origina. Vaciar antes de avanzar de estado.
+pendientes: []
+
+fechas:
+  encargo: null
+  verificacion: null
+  pacto: null
+  publicacion: null
+
+procedencia: "<cómo se produjo el material: p. ej. 'ensemble de N agentes (verificador web + lecturas + red-teams + síntesis), fecha'>"

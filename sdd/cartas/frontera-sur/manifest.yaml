@@ -1,0 +1,33 @@
+# Caso semilla del sistema (ADR-001): esta carta se trabajó ANTES de que la
+# estructura existiera; este manifest reconstruye su estado real. Anomalía
+# registrada: el borrador se escribió con dos pendientes aún abiertos, cosa
+# que la máquina de estados prohíbe para cartas futuras.
+
+slug: frontera-sur
+titulo: "Setenta mil salieron. Cincuenta mil habían entrado. [PENDING: ver pendientes]"
+
+estado: borrador
+
+destinatarios: [quien-cuenta-la-puerta, el-lector-frente-al-relato]
+dominios:
+  - estadistica-demografia
+  - teoria-de-juegos
+  - analisis-del-discurso
+  - sistemas-migratorios
+  - sociolinguistica-recepcion
+  - etica-del-dano
+flancos: [negacionismo, conspiranoia]
+
+pendientes:
+  - id: acuerdo-003
+    que: "¿la cadena pública de una carta abstracta nombra el caso concreto? (acuerdos/003, estado: propuesto)"
+  - id: titulo
+    que: "el título de trabajo usa la cifra '50.000', que CAYÓ en verificación (sin fuente); candidato coherente con lo verificado: «Setenta y dos mil entraron. Setenta mil salieron.»"
+
+fechas:
+  encargo: 2026-08-11
+  verificacion: 2026-08-11
+  pacto: null          # gates 001 y 002 resueltos 2026-08-11; 003 abierto
+  publicacion: null
+
+procedencia: "ensemble de 10 agentes (1 verificador con buscador web local + 6 lecturas por dominio + 2 red-teams + síntesis), 2026-08-11; verificación re-levantada desde cero, sin herencia del material previo"

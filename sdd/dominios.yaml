@@ -1,0 +1,68 @@
+# dominios.yaml — Registro de lentes y flancos
+# ─────────────────────────────────────────────────────────────────────────────
+# Cada lectura estructural de una carta se hace desde una lente disciplinar
+# registrada aquí. El encargo de cada carta lista qué lentes toca; dp-lecturas
+# lanza una lectura por lente. Los dominios crecen una rama por caso real,
+# no por taxonomía a priori (ADR-001).
+#
+# Esquema de una lente:
+#   <clave>:
+#     lente: disciplina(s) desde la(s) que se lee
+#     entrega: qué tipo de ley estructural produce
+#     reglas: restricciones propias de esta lente (límites de alcance heredables)
+# ─────────────────────────────────────────────────────────────────────────────
+
+lentes:
+  estadistica-demografia:
+    lente: "estadística / demografía"
+    entrega: "leyes sobre la cifra: qué condiciones convierten un número en posición y no en dato"
+    reglas:
+      - "toda cifra con emisor nombrado y fecha"
+      - "los muertos con horquilla honesta por emisor, jamás como tasa ni porcentaje"
+
+  teoria-de-juegos:
+    lente: "teoría de juegos / economía política"
+    entrega: "leyes sobre incentivos y matrices de pago: qué estructura explica el comportamiento sin atribuir intención"
+    reglas:
+      - "describir la matriz, no al que mueve"
+      - "verbos de posición/devengo, nunca de mano (regla de verbo)"
+
+  analisis-del-discurso:
+    lente: "análisis del discurso / retórica"
+    entrega: "leyes sobre cómo viajan los mensajes: qué pierde un texto en cada salto y por qué"
+    reglas:
+      - "distinguir enunciado falsable de implicatura; la falsedad puede vivir solo en la inferencia"
+      - "no postular autor del deslizamiento semántico sin documento"
+
+  sistemas-migratorios:
+    lente: "sistemas migratorios / geografía de flujos"
+    entrega: "leyes sobre visibilidad y forma: por qué unos flujos son acontecimiento y otros silencio"
+    reglas:
+      - "la magnitud y los muertos son reales; la ley reparte la atención, no discute la existencia"
+      - "buscar siempre la puerta gemela silenciosa (experimento de control)"
+
+  sociolinguistica-recepcion:
+    lente: "sociolingüística / registro / recepción"
+    entrega: "leyes sobre cómo aterriza el texto en el lector; custodia de la voz del narrador"
+    reglas:
+      - "el narrador se incluye en el mecanismo; registro de testigo, no de examinador"
+      - "nunca despreciar al que creyó: si el núcleo no era falsable, creerlo no es fallo de inteligencia"
+
+  etica-del-dano:
+    lente: "filosofía moral / DDHH"
+    entrega: "límites éticos del tratamiento del daño humano en la pieza"
+    reglas:
+      - "los muertos aparecen una sola vez, en doble gesto: horquilla como acusación + una voz humana irreducible"
+      - "la voz humana: verificada o declarada arquetipo, jamás fabricada"
+      - "el tratamiento actuarial es técnicamente correcto y moralmente ruinoso: prohibido"
+
+# Flancos de red-team: cada carta se ataca desde al menos dos flancos opuestos
+# y nombrados. Blindar un solo flanco es dejar el otro abierto.
+flancos:
+  negacionismo:
+    ataca: "que la pieza relativice o niegue un hecho fuerte real y reivindicado"
+    exige: "concesión completa del caso fuerte ANTES del primer 'pero'; el primer 'pero' antes de la concesión ES el flanco"
+
+  conspiranoia:
+    ataca: "que la pieza reimporte intención/agencia por la puerta de atrás: verbos de mano, teleología, correlación insinuada como causa"
+    exige: "regla de verbo (posición/devengo); formulaciones negativas y modestas; degradar 'legible ex post' a ilustración, jamás prueba"

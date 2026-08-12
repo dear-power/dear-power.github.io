@@ -1,0 +1,24 @@
+# destinatarios.yaml — A quién corresponde el feedback
+# ─────────────────────────────────────────────────────────────────────────────
+# Dear Power es un address unidireccional a un poder. Cada carta declara en su
+# encargo a qué destinatario habla. El canal v1 es la publicación abierta:
+# la carta ES el address. Mecánicas de entrega futuras (co-firma, adaptación
+# por reuso, PRs) se diseñan cuando un caso real las pida.
+#
+# Esquema:
+#   <clave>:
+#     rol: quién es este poder, como rol (no como nombre propio)
+#     por-que: por qué le corresponde feedback
+#     canal: cómo le llega hoy
+# ─────────────────────────────────────────────────────────────────────────────
+
+destinatarios:
+  quien-cuenta-la-puerta:
+    rol: "quienes emiten las cifras de una frontera y custodian su relato: ministerios, gobiernos locales, cuerpos, medios que titulan"
+    por-que: "cuando la responsabilidad de un hecho está repartida entre partes que se necesitan y nadie de fuera lo mide, sus cifras son posiciones; el feedback es mostrar la geometría de ese reparto"
+    canal: "publicación abierta"
+
+  el-lector-frente-al-relato:
+    rol: "el ciudadano que recibe el relato de frontera ya cocinado: titulares, cadenas, desmentidos"
+    por-que: "el contrapoder de un relato inmune a la refutación es un lector que sabe distinguir forma de magnitud y procedimiento de resultado; la carta le devuelve herramienta, no culpa"
+    canal: "publicación abierta"

@@ -1,0 +1,12 @@
+# observables.yaml — los falsadores declarados de la carta
+# Cada carta cierra con hechos comprobables por cualquiera y la declaración de
+# cuál haría cambiar de opinión al autor. Las apuestas se registran ANTES de
+# conocer el resultado (ADR-001). dp-vigilar revisa los vencidos.
+
+observables:
+  - id: <clave-corta>
+    enunciado: "qué afirma la carta que es comprobable"
+    falsador: "qué hecho público la refutaría"
+    fecha_limite: <YYYY-MM-DD | null>   # null = continuo, sin vencimiento
+    estado: pendiente                    # pendiente | cumplido | refutado
+    resolucion: null                     # al resolverse: qué pasó, con fuente y fecha

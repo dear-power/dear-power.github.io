@@ -1,0 +1,31 @@
+# Observables de la carta frontera-sur — registrados 2026-08-11, ANTES de
+# conocer resultados. Cada uno con su falsador declarado.
+
+observables:
+  - id: solo-procedimiento
+    enunciado: "El texto de la sentencia (STS 814/2026, dictada 29-jun-2026) cambia solo el PROCEDIMIENTO de la devolución (garantías, plazo de 72h), no el RESULTADO: la devolución sigue. Verbatim clave: no cabe rechazo 'a quienes cruzan a nado, ya que no superan ninguna barrera física'; y si se instalan 'elementos de contención físicos en el mar' volvería a caber el rechazo."
+    falsador: "Si el texto leído entero cambiara el resultado (permitir quedarse), la ley de la inmunidad colapsa para este episodio: 'la puerta está abierta' habría sido verdad, sería falsable y desmentible."
+    fecha_limite: null
+    estado: pendiente
+    resolucion: null
+
+  - id: sin-contador-independiente
+    enunciado: "No existe recuento del cruce del 30-jul-2026 emitido por un tercero sin interés: Frontex solo aparece para la ruta argelina-Baleares; ni FRA, ni ACNUR, ni OIM emitieron conteo discreto del episodio. Toda cifra es de parte."
+    falsador: "Un recuento discreto del episodio publicado por un tercero sin stake debilita la ley de la medición: la dispersión pasaría a medir error, no reparto."
+    fecha_limite: null
+    estado: pendiente
+    resolucion: null
+
+  - id: apuesta-15-agosto
+    enunciado: "Apuesta registrada el 2026-08-11, antes del resultado: (i) NO habrá apertura estatal de la frontera el 15-ago-2026 (el único nodo falsable del rumor, ya desmentido el 7-ago); (ii) el núcleo no-falsable ('no hay deportación inmediata / la puerta está abierta') seguirá circulando haya o no haya cruce; (iii) si hay episodio, su cifra volverá a divergir por emisor."
+    falsador: "Una apertura estatal real el 15-ago refutaría el núcleo del argumento de inmunidad: la promesa habría sido verdadera. Inversamente, un 15-ago sin apertura y con cifras de nuevo dispares confirma (b) y (c) a la vez."
+    fecha_limite: 2026-08-15
+    estado: pendiente
+    resolucion: null
+
+  - id: puerta-gemela-silenciosa
+    enunciado: "La ruta difusa (argelina→Baleares, ~11.000 llegadas en año y medio, descrita como 'realidad estructural') seguirá sin ser titulada 'crisis' mientras no adquiera forma (punto, plazo, imagen), pese a dejar más residuo neto que la puerta-crisis."
+    falsador: "Doble: (i) si esa ruta se convirtiera en 'crisis' nacional solo por magnitud, sin forma, la tesis 'forma como condición necesaria' se debilita; (ii) si apareciera un acto documentado y atribuible del custodio dirigido a quien delegó la custodia, la refutación del marco palanca-como-peligro-central se tambalea."
+    fecha_limite: null
+    estado: pendiente
+    resolucion: null
