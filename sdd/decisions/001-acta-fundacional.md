@@ -25,6 +25,8 @@ Traducción directa de los principios SDD de ingeniería al discurso:
 
 4. **Los límites de alcance son ley** — blast radius sobre afirmaciones en lugar de ficheros. Cada carta declara qué afirmaciones puede hacer y cuáles tiene prohibidas (p. ej. "no atribuir orquestación operativa a nadie"; "los muertos jamás como tasa"; regla de verbo: verbos de posición, no de mano). Una afirmación fuera de límites invalida el paso, aunque sea verdadera.
 
+5. **El estado vive en el repo, no en un índice externo.** El progreso de cada carta (verificado, contrastado, pactado, publicado, en vigilia) se registra en su `manifest.yaml`. Un índice externo, si existe, refleja este estado; nunca al revés.
+
 ## El mecanismo PENDING
 
 Heredado intacto: ante ambigüedad, el agente **no juzga — se niega y señala**. Marca `PENDING` con opciones, pros/contras y recomendación, y se detiene. Ningún paso posterior procede con un PENDING abierto. Esto es lo que hace el árbol recorrible por un agente de capacidad media: el estado vive en YAML, no en la cabeza del agente; el criterio vive en el pacto, no en el modelo.
@@ -55,7 +57,7 @@ Piezas estructurales que el árbol exige y que el SDD de ingeniería no tiene:
 
 ## El pacto vive en git
 
-Lo acordado con el humano (los gates resueltos, las decisiones de forma, los límites) se registra como ficheros en `acuerdos/` dentro de cada carta, con el formato de este ADR: **conclusión, no debate** (Conclusión / Por qué / Consecuencias). La historia de git es el registro del pacto: un agente que retoma una carta reconstruye qué está decidido leyendo `acuerdos/` y el log, no re-litigando la conversación. Las decisiones se toman en conversación amplia y visible; aquí se registra lo decidido, no dónde se decidió.
+Si el manifest (principio 5) dice **dónde** está una carta, `acuerdos/` dice **qué** se decidió en cada gate. Lo acordado con el humano (los gates resueltos, las decisiones de forma, los límites) se registra como ficheros en `acuerdos/` dentro de cada carta, con el formato de este ADR: **conclusión, no debate** (Conclusión / Por qué / Consecuencias). La historia de git es el registro del pacto: un agente que retoma una carta reconstruye qué está decidido leyendo `acuerdos/` y el log, no re-litigando la conversación. Las decisiones se toman en conversación amplia y visible; aquí se registra lo decidido, no dónde se decidió.
 
 ## Por qué
 
