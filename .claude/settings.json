@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "if": "Bash(git commit*)",
+            "command": "sh \"$(git rev-parse --show-toplevel)/sdd/.agents/hooks/pre-commit.sh\"",
+            "statusMessage": "Comprobando el árbol sdd...",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"$(git rev-parse --show-toplevel)/sdd/.agents/hooks/post-edit.sh\"",
+            "statusMessage": "Buscando andamiaje narrado...",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

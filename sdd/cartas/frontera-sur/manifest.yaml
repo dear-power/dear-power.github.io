@@ -8,6 +8,9 @@ titulo: "Setenta mil salieron. Cincuenta mil habían entrado. [PENDING: ver pend
 
 estado: borrador
 
+# Anomalía declarada (la reconoce estado.sh y degrada el fallo a aviso):
+anomalia: "caso semilla — el borrador se escribió antes de que existiera la máquina de estados, con dos gates aún abiertos. No se publica hasta resolverlos; se conserva tal cual como registro de cómo era el método antes de tener forma."
+
 destinatarios: [quien-cuenta-la-puerta, el-lector-frente-al-relato]
 dominios:
   - estadistica-demografia
