@@ -11,4 +11,7 @@ layout: default
   {{ content }}
 
   <p class="signoff">— {{ page.signoff | default: site.title }}</p>
+  {%- if page.procedencia %}
+  <p class="provenance"><a href="{{ page.procedencia }}">Cómo se pensó esta carta</a></p>
+  {%- endif %}
 </article>

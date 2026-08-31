@@ -1,6 +1,6 @@
 # sdd — Spec-Driven Deliberation
 
-El sistema de pensamiento de Dear Power: el árbol que recorre una carta desde el motivo hasta la vigilia posterior a su publicación. Qué significa y por qué existe: [ADR-001, acta fundacional](decisions/001-acta-fundacional.md).
+El sistema de pensamiento de Dear Power: el árbol que recorre una carta desde el motivo hasta la vigilia posterior a su publicación. Qué significa y por qué existe: [ADR-001, acta fundacional](decisions/001-acta-fundacional.md). Cómo suena la carta que sale de él —y por qué no enseña este andamiaje—: [ADR-002, registro epistolar](decisions/002-registro-epistolar.md).
 
 Cada carta publicada en el blog enlaza aquí su cadena completa: encargo, verificación de hechos, lecturas por dominio, red-team, síntesis, acuerdos y observables fechados. La procedencia no se promete — se enseña.
 
@@ -30,9 +30,11 @@ sdd/
 | Slug | Estado | Título de trabajo |
 |------|--------|-------------------|
 | [frontera-sur](cartas/frontera-sur/manifest.yaml) | borrador | Setenta mil salieron… (título en PENDING) |
+| [democracia-desde-arriba](cartas/democracia-desde-arriba/manifest.yaml) | publicado | [Qué pereza, pero me toca ser anarquista](../_posts/2026-08-31-que-pereza-pero-me-toca-ser-anarquista.md) |
 
 ## Decisiones
 
 | # | Título | Estado | Fecha |
 |---|--------|--------|-------|
 | [001](decisions/001-acta-fundacional.md) | Acta fundacional — qué es "sdd" aquí | Aceptado | 2026-08-12 |
+| [002](decisions/002-registro-epistolar.md) | El registro epistolar — la carta no enseña su andamiaje | Aceptado | 2026-08-31 |

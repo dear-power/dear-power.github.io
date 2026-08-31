@@ -91,6 +91,7 @@ a { color: var(--accent); }
   font-style: italic;
 }
 .signoff { margin-top: 2.5rem; font-style: italic; color: var(--muted); }
+.provenance { margin-top: 2rem; font-size: 0.85rem; color: var(--muted); }
 
 /* Footer */
 footer.site {
