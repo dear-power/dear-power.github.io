@@ -35,8 +35,9 @@ impuestos y gente que no se subleve.
 Y todo pueblo que decide se apoya en alguien que paga y no decide. Esclavos,
 aliados, el campo, los sin propiedad, las mujeres, las colonias. Hoy: quien
 lleva quince años aquí sin papeles, la vecindad al otro lado, el que nacerá en
-2070. Cuando la democracia crece, la puerta no se cierra: se muda. De la ciudad
-a la nación, de la nación a la Unión Europea. No ha desaparecido ni una vez.
+2070\. Cuando la democracia crece, la puerta no se cierra: se muda. De la
+ciudad a la nación, de la nación a la Unión Europea. No ha desaparecido ni una
+vez.
 
 Eso no le quita legitimidad. Le quita una: la de creer que su autoridad sube de
 un abajo sin fondo. Sube de un abajo con puerta, y usted tiene la llave sin

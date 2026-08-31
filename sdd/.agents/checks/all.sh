@@ -7,6 +7,7 @@ hard=0
 echo "== estado =="; sh "$d/estado.sh" || hard=1
 echo "== firma ==";  sh "$d/firma.sh"  || hard=1
 echo "== enlaces =="; sh "$d/enlaces.sh" || hard=1
+echo "== render =="; sh "$d/render.sh"  || hard=1
 echo "== fugas ==";  sh "$d/fugas.sh"  || true
 
 if [ "$hard" -ne 0 ]; then

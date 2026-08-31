@@ -71,6 +71,14 @@ particular:
 - Si descartas una versión, anota el motivo en `nota-version`. El descarte por
   registro es ciclo normal, no fallo.
 
+## Al publicar
+
+El texto se transforma —se envuelve a ancho fijo— y esa transformación puede
+corromperlo. Un `2070.` que cae al principio de línea es una lista ordenada
+para Markdown: parte el párrafo en dos y nadie lo ve hasta que el sitio está
+en pie. `render.sh` lo vigila; escapa el carácter (`2070\.`) en vez de
+re-envolver, que solo mueve el problema al siguiente editor.
+
 ## Post-check
 
 1. `sdd/.agents/checks/all.sh`.

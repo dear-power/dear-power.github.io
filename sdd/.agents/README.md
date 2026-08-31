@@ -30,6 +30,7 @@ Ejecutables sin dependencias, desde la raíz del repo:
 sdd/.agents/checks/all.sh              # todo
 sdd/.agents/checks/estado.sh           # coherencia de manifests y PENDING
 sdd/.agents/checks/enlaces.sh          # ADR-004: grafo de cartas + grafo inverso
+sdd/.agents/checks/render.sh           # que el post publicado diga lo que la carta dice
 sdd/.agents/checks/fugas.sh            # ADR-002: andamiaje narrado en borradores/posts
 sdd/.agents/checks/firma.sh            # ADR-002: firma y campos de publicación
 ```

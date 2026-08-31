@@ -15,10 +15,11 @@ root=$(git rev-parse --show-toplevel 2>/dev/null) || exit 0
 fail=0
 estado=$(sh "$root/sdd/.agents/checks/estado.sh" 2>&1) || fail=1
 firma=$(sh "$root/sdd/.agents/checks/firma.sh" 2>&1) || fail=1
+render=$(sh "$root/sdd/.agents/checks/render.sh" 2>&1) || fail=1
 
 [ "$fail" -eq 0 ] && exit 0
 
-printf '%s\n%s' "$estado" "$firma" | jq -Rs '{
+printf '%s\n%s\n%s' "$estado" "$firma" "$render" | jq -Rs '{
   hookSpecificOutput: {
     hookEventName: "PreToolUse",
     permissionDecision: "deny",
