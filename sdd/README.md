@@ -29,6 +29,7 @@ sdd/
 
 | Slug | Estado | Título de trabajo |
 |------|--------|-------------------|
+| [aliado-natural](cartas/aliado-natural/manifest.yaml) | publicado | [El aliado natural del PP es el PSOE](../_posts/2026-07-06-el-aliado-natural-del-pp-es-el-psoe.md) — backfill, sin cadena original |
 | [frontera-sur](cartas/frontera-sur/manifest.yaml) | borrador | Setenta mil salieron… (título en PENDING) |
 | [democracia-desde-arriba](cartas/democracia-desde-arriba/manifest.yaml) | publicado | [Qué pereza, pero me toca ser anarquista](../_posts/2026-08-31-que-pereza-pero-me-toca-ser-anarquista.md) |
 

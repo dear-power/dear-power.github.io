@@ -1,0 +1,50 @@
+# observables.yaml — REGISTRADOS A POSTERIORI (2026-08-31).
+#
+# ADR-001 exige que las apuestas se registren ANTES de conocer el resultado.
+# Estas NO cumplen eso: la carta se publicó el 2026-07-06 sin observables y
+# estos se escriben casi dos meses después. Valen como falsadores —dicen qué
+# tumbaría la tesis— pero NO cuentan como apuesta pre-registrada, y no se
+# pueden invocar como acierto si se cumplen. Se marcan así para que nadie los
+# lea como lo que no son.
+
+observables:
+  - id: cooperacion-institucional-puntual
+    enunciado: >
+      Las dos fuerzas mayoritarias españolas seguirán cooperando solo en
+      renovaciones institucionales puntuales y bajo presión externa, sin que
+      esa cooperación se extienda a materia legislativa ordinaria.
+    falsador: >
+      Un acuerdo legislativo sustantivo entre ambas sobre una materia no
+      institucional (fiscal, vivienda, energía) negociado sin bloqueo previo.
+    fecha_limite: null
+    estado: pendiente
+    resolucion: null
+    apuesta_pre_registrada: false
+
+  - id: erosion-del-cordon
+    enunciado: >
+      La formulación corregida en verificación —la cooperación entre las dos
+      fuerzas mayoritarias se está deshaciendo donde existía, no es que nunca
+      se entendiera— seguirá siendo la lectura correcta: habrá más rupturas del
+      cordón sanitaire en Europa que restauraciones.
+    falsador: >
+      Una restauración explícita del pacto de no-coalición en un país donde se
+      había roto, o dos legislaturas seguidas sin nuevas rupturas.
+    fecha_limite: 2029-08-31
+    estado: pendiente
+    resolucion: null
+    apuesta_pre_registrada: false
+
+  - id: gran-coalicion-alemana
+    enunciado: >
+      Alemania seguirá siendo el contraejemplo vivo: sus dos fuerzas
+      mayoritarias mantienen la coalición iniciada en 2025 como práctica
+      normal, no como emergencia.
+    falsador: >
+      Ruptura de la gran coalición alemana seguida de un gobierno que incluya
+      al flanco, lo que acercaría el caso alemán al español y devolvería fuerza
+      a la generalización original de la carta.
+    fecha_limite: 2029-08-31
+    estado: pendiente
+    resolucion: null
+    apuesta_pre_registrada: false

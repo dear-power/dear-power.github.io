@@ -1,0 +1,38 @@
+# BACKFILL HONESTO (2026-08-31). Leer antes que nada:
+#
+# Esta carta se publicó el 2026-07-06 SIN cadena. No hubo encargo, ni
+# verificación, ni lecturas, ni red-team, ni observables. Nada.
+#
+# A diferencia del backfill de `frontera-sur` —que reconstruía el estado de un
+# trabajo que SÍ existió (un ensemble de 10 agentes)—, aquí no hay nada que
+# reconstruir. Así que esta carpeta NO finge una cadena de julio: contiene una
+# auditoría fechada el 2026-08-31, hecha a posteriori y etiquetada como tal.
+# Fabricar una verificación con fecha de julio sería inventar procedencia, que
+# es exactamente lo que este proyecto existe para no hacer.
+#
+# Motivo del backfill: ADR-004 creó una arista hacia esta carta, y el nodo raíz
+# del grafo no puede ser un texto que nadie puede auditar.
+
+slug: aliado-natural
+titulo: "El aliado natural del PP es el PSOE"
+
+estado: publicado
+post: /_posts/2026-07-06-el-aliado-natural-del-pp-es-el-psoe.md
+
+destinatarios: [quien-gobierna-en-nombre-de-la-democracia]
+dominios: []          # ninguna lectura por lente: no las hubo
+flancos: []           # sin red-team
+pendientes: []
+
+fechas:
+  encargo: null         # no hubo
+  verificacion: 2026-08-31   # a posteriori, casi dos meses después de publicar
+  pacto: null           # no hubo gates
+  publicacion: 2026-07-06
+
+procedencia: >
+  Escrita y publicada sin cadena el 2026-07-06. Verificación web re-levantada
+  desde cero el 2026-08-31, casi dos meses DESPUÉS de publicar, en el backfill
+  que motivó ADR-004. La verificación estrechó una de sus afirmaciones; ver
+  revisiones/001-2026-08-31.md. Los observables se registraron igualmente a
+  posteriori y NO cuentan como apuesta pre-registrada.

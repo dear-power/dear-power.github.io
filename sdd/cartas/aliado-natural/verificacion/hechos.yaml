@@ -1,0 +1,103 @@
+# hechos.yaml — verificacion web re-levantada desde cero.
+#
+# FECHA REAL: 2026-08-31. La carta se publico el 2026-07-06 SIN esta tabla.
+# Esto NO es la verificacion que respaldo la carta: es la que se le hizo
+# despues. Se conserva la distincion porque el proyecto entero se apoya en que
+# la procedencia no se promete, se ensena — y prometerla hacia atras seria
+# peor que no tenerla.
+
+veredicto_global: >
+  El nucleo NORMATIVO aguanta y no es verificable (es una tesis sobre lo que
+  deberia ser, no sobre lo que es). El diagnostico DESCRIPTIVO aguanta para
+  Espana. Y cae, en su forma fuerte, la generalizacion comparada: la carta
+  afirma que esto es "el problema de casi todas las democracias de hoy", y no
+  lo es. Alemania ha formado cinco grandes coaliciones entre sus dos fuerzas
+  mayoritarias, la ultima en 2025; y el cordon sanitaire —Belgica, Francia,
+  Suecia— es literalmente la tesis de la carta institucionalizada desde hace
+  decadas. La formulacion que aguanta no es "casi ninguna democracia lo
+  entiende" sino algo mas incomodo y mas util: "otras democracias lo
+  institucionalizaron, Espana no, y donde existia se esta erosionando".
+
+citas_que_caen:
+  - cae: >
+      "no es un problema español. Es el problema de casi todas las democracias
+      de hoy"
+    realidad: >
+      Falso en su forma fuerte. En Alemania los dos partidos tradicionales
+      (CDU/CSU y SPD) han gobernado juntos en 1966-69, 2005-09, 2013-17,
+      2018-21 y de nuevo desde 2025: cinco grandes coaliciones, la practica
+      normal y no la excepcion. Y el cordon sanitaire —el pacto explicito de
+      NO coaligarse con el flanco— existe en Belgica desde principios de los
+      90 (Vlaams Blok), y de forma informal en Francia y Suecia. Es decir: hay
+      democracias que hacen exactamente lo que la carta pide, y llevan decadas
+      haciendolo. Lo que si es cierto y mas afilado: la practica es "cada vez
+      mas rara en Europa" (The Conversation, 2024) y en 2024 Les Republicains
+      intentaron aliarse con Rassemblement National, rompiendo el frente.
+      Reformulacion que aguanta: no es que no se entienda, es que se esta
+      DESHACIENDO donde se entendia — y en Espana no llego a instalarse.
+
+  - cae: >
+      "de casi todo lo que ha sido más grande que una ciudad pequeña en toda la
+      historia humana" (la nota historica de escala)
+    realidad: >
+      NO VERIFICADA, ni a favor ni en contra. La carta la lanza al pasar y sin
+      fuente, y sostenerla exigiria el aparato comparado que la carta de agosto
+      si levanto para una tesis vecina — donde, por cierto, la forma fuerte de
+      la afirmacion de escala CAYO. Se marca como afirmacion sin respaldo: no
+      es falsa, es que no se comprobo. Una carta futura que quiera usarla tiene
+      que fundamentarla primero.
+
+tabla:
+  - afirmacion: >
+      En Alemania CDU/CSU y SPD han formado cinco grandes coaliciones:
+      1966-69, 2005-09, 2013-17, 2018-21 y 2025
+    fuente: "Wikipedia (Gran coalicion, Alemania); swissinfo/Infobae (agencia, 2025); eldiario.es"
+    fecha: "1966-2025; el acuerdo de 2025 tras 27 dias de negociacion"
+    aguanta: si
+    url: "https://es.wikipedia.org/wiki/Gran_coalici%C3%B3n_(Alemania)"
+    nota: >
+      CONTRAEJEMPLO DIRECTO de la generalizacion de la carta. Las dos fuerzas
+      que aceptan las mismas reglas no solo se reconocen como aliadas: llevan
+      seis decadas gobernando juntas de forma recurrente.
+
+  - afirmacion: >
+      El cordon sanitaire —pacto de las fuerzas mayoritarias para no coaligarse
+      con el flanco— existe en Belgica (Vlaams Blok, principios de los 90) y de
+      forma informal en Francia y Suecia
+    fuente: "The Conversation (2024); Wikipedia (2024 The Republicans alliance crisis); literatura academica (Tandfonline 2025, Sagepub 2024)"
+    fecha: "1990s-2024"
+    aguanta: si
+    url: "https://theconversation.com/french-voters-united-to-block-far-right-again-but-cordon-sanitaire-strategy-is-increasingly-rare-in-europe-233719"
+    nota: >
+      La tesis de la carta, institucionalizada y con nombre propio, decadas
+      antes de la carta. AGUANTA tambien el matiz que la salva parcialmente:
+      la estrategia es "cada vez mas rara en Europa" y en 2024 Les
+      Republicains intentaron romperla aliandose con RN.
+
+  - afirmacion: >
+      En Espana PP y PSOE no han formado gobierno juntos; su cooperacion se
+      limita a pactos institucionales puntuales, como la renovacion del CGPJ
+      acordada en junio de 2024 tras cinco anos y medio de bloqueo
+    fuente: "Infobae; El Espanol; ORM (sobre el acuerdo firmado en Bruselas)"
+    fecha: "acuerdo 26-jun-2024"
+    aguanta: si
+    url: "https://www.infobae.com/espana/2024/06/26/psoe-y-pp-retoman-los-grandes-pactos-de-estado-con-la-renovacion-del-cgpj-y-acercan-un-pacto-para-el-banco-de-espana-y-rtve/"
+    nota: >
+      Sostiene el diagnostico espanol de la carta. Matiz que la carta no tiene
+      y le habria dado fuerza: la anomalia duro cinco anos y medio y se
+      desbloqueo cuando las dos partes cooperaron — el propio caso espanol
+      contiene la demostracion de la tesis.
+
+  - afirmacion: >
+      La polarizacion afectiva —simpatia por el propio partido frente a rechazo
+      al resto— crece en Espana y en democracias del entorno, organizada en
+      bloques ideologicos, y deteriora la cooperacion y la confianza
+      institucional
+    fuente: "ESADE EcPol; CEPC; revisiones sistematicas (UOC, Univ. Murcia, CEMOP)"
+    fecha: "literatura reciente"
+    aguanta: si
+    url: "https://dobetter.esade.edu/es/polarizacion-afectiva"
+    nota: >
+      Da respaldo academico al mecanismo que la carta describe sin nombrar.
+      "Polarizacion afectiva" es el termino tecnico de lo que la carta llama
+      confundir la presion con la alianza.

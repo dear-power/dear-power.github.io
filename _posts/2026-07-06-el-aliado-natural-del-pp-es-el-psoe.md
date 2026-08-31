@@ -4,6 +4,7 @@ lang: es
 title: El aliado natural del PP es el PSOE
 to: A quien corresponda
 signoff: A Quien Corresponda
+procedencia: https://github.com/dear-power/dear-power.github.io/tree/main/sdd/cartas/aliado-natural
 ---
 
 Se repite como si fuera de manual: *el aliado natural del PP es Vox*. Y, en el
