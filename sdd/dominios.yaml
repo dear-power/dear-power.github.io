@@ -56,6 +56,21 @@ lentes:
       - "la voz humana: verificada o declarada arquetipo, jamás fabricada"
       - "el tratamiento actuarial es técnicamente correcto y moralmente ruinoso: prohibido"
 
+  historia-comparada-del-estado:
+    lente: "historia política / sociología histórica (formación del Estado, fiscalidad y guerra)"
+    entrega: "leyes sobre qué condiciones estructurales ACOMPAÑAN la aparición de una institución, distinguiendo correlación histórica de causa"
+    reglas:
+      - "cada caso con fecha y lugar"
+      - "nombrar los contraejemplos junto a los casos que confirman; un patrón sin su lista de excepciones es una anécdota"
+      - "correlación histórica no es causa: enunciar en 'acompaña a / se financia con', nunca en 'se debe a'"
+
+  filosofia-politica-legitimidad:
+    lente: "teoría política normativa (problema de la frontera del demos; principio de todos los afectados / todos los sometidos)"
+    entrega: "leyes sobre la pretensión de legitimidad de una institución y sobre su afuera constitutivo"
+    reglas:
+      - "separar la pretensión normativa del funcionamiento empírico; no usar un fallo del segundo para negar la primera"
+      - "no colapsar 'ideal regulativo' con 'programa': un principio que ninguna institución cumple del todo no queda por ello refutado — queda como vara"
+
 # Flancos de red-team: cada carta se ataca desde al menos dos flancos opuestos
 # y nombrados. Blindar un solo flanco es dejar el otro abierto.
 flancos:
@@ -66,3 +81,11 @@ flancos:
   conspiranoia:
     ataca: "que la pieza reimporte intención/agencia por la puerta de atrás: verbos de mano, teleología, correlación insinuada como causa"
     exige: "regla de verbo (posición/devengo); formulaciones negativas y modestas; degradar 'legible ex post' a ilustración, jamás prueba"
+
+  derrotismo-antipolitica:
+    ataca: "que la pieza, al vaciar la democracia de legitimidad de origen, sirva de coartada a quien quiere menos democracia: 'si es un invento de elites, un club con puerta, para qué defenderla del hombre fuerte de turno'"
+    exige: "concesión completa de lo que la democracia realmente entrega (rotación pacífica del poder, revisar una ley sin sangre, un techo sobre el que manda) ANTES del primer 'pero'; la conclusión obligada es 'exigir más', nunca 'da igual quién gobierne'"
+
+  primitivismo-anarquista:
+    ataca: "el flanco opuesto: que la pieza deslice de 'todo demos tiene un afuera' a 'existe una forma sin afuera, sin coerción y sin unidad que escala a millones' — justo el problema que la democracia se inventó para fingir que resolvía"
+    exige: "'anarquismo' se queda como forma del valor que ya se sostiene, no como programa con la salida dibujada; humildad explícita sobre el 'cómo' dentro del propio texto; degradar 'me toca ser anarquista' a 'el hilo tiene forma anárquica', jamás a llamada a la acción"
