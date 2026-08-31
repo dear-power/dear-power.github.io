@@ -1,6 +1,6 @@
 ---
 name: dp-revisar
-description: Audita cartas ya escritas o publicadas de Dear Power contra la doctrina vigente cuando el repo ha evolucionado. Marca hallazgos; no reescribe sola.
+description: Audita una carta de Dear Power ya escrita o publicada cuando algo la ha dejado atrás: un ADR nuevo, un lector que se atasca, o un cambio en la carta de la que depende. Marca hallazgos y propaga; no reescribe sola.
 ---
 
 # dp-revisar — puente

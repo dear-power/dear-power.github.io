@@ -1,21 +1,24 @@
 ---
 name: dp-revisar
-description: Audita cartas ya escritas o publicadas contra la doctrina vigente (ADRs y acuerdos de hoy), cuando el repo ha evolucionado desde que se escribieron. Marca hallazgos; no reescribe sola.
+description: Audita una carta ya escrita o publicada cuando algo la ha dejado atrás: un ADR nuevo, un lector que se atasca, o un cambio en la carta de la que depende. Marca hallazgos y propaga por el grafo; no reescribe sola.
 ---
 
-# dp-revisar — la doctrina cambió, las cartas no
+# dp-revisar — la carta se quedó atrás
 
-El método de Dear Power crece por casos reales: un ADR nuevo nace casi siempre
-de una carta que lo forzó. El efecto secundario es que **toda carta anterior a
-un ADR se escribió sin él**. Esta skill recorre esa deuda.
+Una carta se publica y el mundo sigue: la doctrina crece, un lector la lee de
+otra manera, la carta en la que se apoyaba cambia. Esta skill recorre esa deuda
+y la registra. Es el único sitio del árbol donde se toca un texto ya publicado.
 
-## Dos disparadores
+## Tres disparadores
 
 1. **Deriva doctrinal** — un ADR nuevo deja atrás a las cartas anteriores.
 2. **Lectura humana** — alguien se atasca en una frase. No hace falta que la
    doctrina haya cambiado: una carta puede cumplir todas las reglas vigentes y
    aun así no decir lo que quería decir. Este disparador encontró el primer
    hallazgo real del sistema.
+3. **Dependencia** (ADR-004) — cambió una carta de la que esta depende. Lo que
+   se audita entonces no es la carta entera: es **el pasaje que se apoya en la
+   arista**, y la pregunta es si sigue en pie.
 
 El pre-check cambia según cuál sea. Con el segundo, el paso 1 sirve para
 descartar deriva, no para buscarla.
@@ -103,11 +106,32 @@ los hallazgos clasificados, y **qué se decidió con cada uno** — incluido
 «se deja como está, y por qué». Una revisión que no registra lo que se decidió
 no dejó de ser una opinión.
 
+## Propagar hacia las dependientes (ADR-004)
+
+**Si has cambiado lo que una carta afirma o formula, no has terminado.**
+
+```sh
+sdd/.agents/checks/enlaces.sh   # imprime el grafo inverso al final
+```
+
+Toda carta a la derecha de la que tocaste **entra en revisión**: una revisión
+propia, con disparador `dependencia`, no una nota al margen de la tuya.
+
+Entrar en revisión no es cambiar. El desenlace más común y perfectamente válido
+es «se deja como está, y por qué» — pero registrado, que es la diferencia entre
+haberlo comprobado y haberlo supuesto.
+
+No propagues por mantenimiento que no toca el pasaje referido. Para decidirlo,
+abre la carta dependiente **por la cita**, no por el principio: lo que importa
+es si el alias del wikilink sigue diciendo la verdad sobre la carta de destino.
+
 ## Post-check
 
 1. Ningún texto publicado se ha modificado sin que el humano lo sepa.
-2. Cada hallazgo tiene su clasificación y su cita literal. Sin cita, no hay
+2. Si cambió lo afirmado, las dependientes tienen su revisión abierta o su
+   «se deja como está» razonado. Ninguna arista queda sin mirar.
+3. Cada hallazgo tiene su clasificación y su cita literal. Sin cita, no hay
    hallazgo.
-3. Si de la revisión sale un cambio doctrinal (la carta vieja reveló un hueco
+4. Si de la revisión sale un cambio doctrinal (la carta vieja reveló un hueco
    en el ADR), eso es un ADR nuevo o una enmienda — no un parche local.
-4. `sdd/.agents/checks/all.sh`.
+5. `sdd/.agents/checks/all.sh`.

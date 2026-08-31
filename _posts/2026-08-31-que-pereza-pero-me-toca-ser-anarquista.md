@@ -4,6 +4,7 @@ lang: es
 title: "Qué pereza, pero me toca ser anarquista"
 to: A quien gobierna en nombre de la democracia
 signoff: A Quien Corresponda
+depende_de: [el-aliado-natural-del-pp-es-el-psoe]
 procedencia: https://github.com/dear-power/dear-power.github.io/tree/main/sdd/cartas/democracia-desde-arriba
 ---
 
@@ -24,9 +25,9 @@ crea el autogobierno: le paga la versión cara y le escribe el relato heroico.
 
 Lo que se repite es otra cosa.
 
-Escribí aquí que las dos fuerzas que aceptan las mismas reglas son aliadas
-naturales. Esa aceptación mutua no es un adorno de la democracia: es la
-democracia. Y es, de origen, un arreglo entre los que ya están dentro. Nadie lo
+Escribí aquí que [las dos fuerzas que aceptan las mismas reglas son aliadas
+naturales]({% post_url 2026-07-06-el-aliado-natural-del-pp-es-el-psoe %}). Esa
+aceptación mutua no es un adorno de la democracia: es la democracia. Y es, de origen, un arreglo entre los que ya están dentro. Nadie lo
 diseñó; basta con que ninguna facción pueda ganar sola y todas puedan sangrar.
 Por eso el voto no se concede, se devenga: de una posición que necesita brazos,
 impuestos y gente que no se subleve.

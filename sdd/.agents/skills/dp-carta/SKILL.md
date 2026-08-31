@@ -61,6 +61,11 @@ particular:
   quién es, y ya lo sabía?
 - **Autocontenida en sentido.** Toda referencia carga lo que refiere. Ninguna
   referencia a documentos internos.
+- **Toda referencia a una carta anterior es una arista** (ADR-004): wikilink
+  con alias obligatorio —`[[slug-del-post|lo que dice esa carta]]`— y
+  `depende_de:` en el front matter. El alias es lo que hace que el lector que
+  no siga el enlace no pierda nada. Al publicar, el wikilink se resuelve a
+  `{% post_url %}`, que falla en build si el destino no existe.
 - Front matter del borrador con los campos de publicación ya resueltos
   (`lang`, `to`, `signoff`), y la firma según ADR-002.
 - Si descartas una versión, anota el motivo en `nota-version`. El descarte por

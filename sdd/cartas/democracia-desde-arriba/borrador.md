@@ -7,12 +7,15 @@ escrito-conforme-a: [ADR-002, acuerdos/001, acuerdos/002, acuerdos/003, acuerdos
 
 # Campos de publicación, resueltos aquí para que dp-publicar sea mecánico
 # (ADR-002, "La firma"). Se trasladan tal cual al front matter del post.
+depende_de: [el-aliado-natural-del-pp-es-el-psoe]
+
 publicacion:
   layout: post
   lang: es
   title: "Qué pereza, pero me toca ser anarquista"
   to: "A quien gobierna en nombre de la democracia"
   signoff: "A Quien Corresponda"
+  depende_de: [el-aliado-natural-del-pp-es-el-psoe]
 
 nota-version: >
   v1 descartada por larga y didáctica (acuerdo 004). v2 descartada por narrar
@@ -36,7 +39,7 @@ Tampoco es una ley. Roma protegió a su plebe mucho antes de tener imperio, Isla
 
 Lo que se repite es otra cosa.
 
-Escribí aquí que las dos fuerzas que aceptan las mismas reglas son aliadas naturales. Esa aceptación mutua no es un adorno de la democracia: es la democracia. Y es, de origen, un arreglo entre los que ya están dentro. Nadie lo diseñó; basta con que ninguna facción pueda ganar sola y todas puedan sangrar. Por eso el voto no se concede, se devenga: de una posición que necesita brazos, impuestos y gente que no se subleve.
+Escribí aquí que [[el-aliado-natural-del-pp-es-el-psoe|las dos fuerzas que aceptan las mismas reglas son aliadas naturales]]. Esa aceptación mutua no es un adorno de la democracia: es la democracia. Y es, de origen, un arreglo entre los que ya están dentro. Nadie lo diseñó; basta con que ninguna facción pueda ganar sola y todas puedan sangrar. Por eso el voto no se concede, se devenga: de una posición que necesita brazos, impuestos y gente que no se subleve.
 
 Y todo pueblo que decide se apoya en alguien que paga y no decide. Esclavos, aliados, el campo, los sin propiedad, las mujeres, las colonias. Hoy: quien lleva quince años aquí sin papeles, la vecindad al otro lado, el que nacerá en 2070. Cuando la democracia crece, la puerta no se cierra: se muda. De la ciudad a la nación, de la nación a la Unión Europea. No ha desaparecido ni una vez.
 

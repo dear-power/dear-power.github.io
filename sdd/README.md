@@ -38,3 +38,5 @@ sdd/
 |---|--------|--------|-------|
 | [001](decisions/001-acta-fundacional.md) | Acta fundacional — qué es "sdd" aquí | Aceptado | 2026-08-12 |
 | [002](decisions/002-registro-epistolar.md) | El registro epistolar — la carta no enseña su andamiaje | Aceptado | 2026-08-31 |
+| [003](decisions/003-independencia-del-harness.md) | El repo es independiente del harness — puentes, no implementaciones | Aceptado | 2026-08-31 |
+| [004](decisions/004-grafo-de-cartas.md) | El grafo de cartas — la referencia se declara y se propaga | Aceptado | 2026-08-31 |
