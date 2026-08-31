@@ -1,8 +1,8 @@
 ---
 carta: democracia-desde-arriba
-version: 4
+version: 5
 fecha: 2026-08-31
-estado: pendiente-de-aprobacion
+estado: publicado
 escrito-conforme-a: [ADR-002, acuerdos/001, acuerdos/002, acuerdos/003, acuerdos/004, acuerdos/005, sintesis.md, redteam/derrotismo.md, redteam/primitivismo.md]
 
 # Campos de publicación, resueltos aquí para que dp-publicar sea mecánico
@@ -21,11 +21,14 @@ nota-version: >
   Revolución Francesa cuando el hecho verificado es el sufragio censitario
   estadounidense; «las comunas» y «tribunos» exigían contexto que el lector no
   tiene; «la Unión» aparecía sin haberse nombrado entera ni una vez.
+  v5 = v4 con la apertura reescrita tras publicar: «perder el poder» admitía
+  la lectura «eliminar el poder», que invierte la concesión inicial. Ver
+  revisiones/001-2026-08-31.md.
 ---
 
 # Qué pereza, pero me toca ser anarquista
 
-Perder el poder y seguir libre es una rareza histórica. Costó siglos, no se sostiene solo, y es la mejor razón que hay para defender lo que usted defiende.
+Que quien manda pueda perder el puesto y seguir libre es una rareza histórica. Costó siglos, no se sostiene solo, y es la mejor razón que hay para defender lo que usted defiende.
 
 De dónde salió se cuenta menos. La democracia florece —ancha, pagada, orgullosa de sí misma— cuando una ciudad acaba de convertirse en la potencia de su comarca: Atenas con su liga de tributarios detrás, las ciudades italianas sobre el campo que las rodea, el seis por ciento que podía votar en los Estados Unidos de 1789.
 

@@ -7,8 +7,9 @@ signoff: A Quien Corresponda
 procedencia: https://github.com/dear-power/dear-power.github.io/tree/main/sdd/cartas/democracia-desde-arriba
 ---
 
-Perder el poder y seguir libre es una rareza histórica. Costó siglos, no se
-sostiene solo, y es la mejor razón que hay para defender lo que usted defiende.
+Que quien manda pueda perder el puesto y seguir libre es una rareza histórica.
+Costó siglos, no se sostiene solo, y es la mejor razón que hay para defender lo
+que usted defiende.
 
 De dónde salió se cuenta menos. La democracia florece —ancha, pagada, orgullosa
 de sí misma— cuando una ciudad acaba de convertirse en la potencia de su

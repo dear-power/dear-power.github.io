@@ -9,10 +9,23 @@ El método de Dear Power crece por casos reales: un ADR nuevo nace casi siempre
 de una carta que lo forzó. El efecto secundario es que **toda carta anterior a
 un ADR se escribió sin él**. Esta skill recorre esa deuda.
 
+## Dos disparadores
+
+1. **Deriva doctrinal** — un ADR nuevo deja atrás a las cartas anteriores.
+2. **Lectura humana** — alguien se atasca en una frase. No hace falta que la
+   doctrina haya cambiado: una carta puede cumplir todas las reglas vigentes y
+   aun así no decir lo que quería decir. Este disparador encontró el primer
+   hallazgo real del sistema.
+
+El pre-check cambia según cuál sea. Con el segundo, el paso 1 sirve para
+descartar deriva, no para buscarla.
+
 ## Pre-check
 
 1. Lee los ADR de `sdd/decisions/` **por fecha**. Anota cuáles son posteriores
-   a la carta que vas a revisar: solo esos pueden generar hallazgos.
+   a la carta que vas a revisar: solo esos pueden generar hallazgos *por
+   deriva*. Si ninguno lo es, dilo — y sigue, porque el hallazgo puede ser de
+   lectura.
 2. Lee `acuerdos/` de esa carta. Una decisión pactada en su día **no es un
    hallazgo**: es historia. Solo cuenta como hallazgo si un ADR posterior la
    contradice.
@@ -31,6 +44,18 @@ Un blog que corrige su pasado a escondidas es exactamente el objeto que
 `frontera-sur` critica: una posición que se emite y se ajusta sin dejar rastro.
 Corregir una errata es mantenimiento; cambiar lo que la carta afirmaba es un
 hecho nuevo, y se cuenta.
+
+**Dónde se cumple la no-silencio** (precedente:
+`democracia-desde-arriba/revisiones/001-2026-08-31.md`):
+
+- **Mantenimiento** —aclarar lo que la frase siempre quiso decir, sin tocar
+  ninguna afirmación ni ningún observable—: basta el commit público y el
+  fichero de revisión. El post enlaza su procedencia; el rastro es auditable.
+- **Cambio de lo afirmado**: nota visible en el propio post, y materia de
+  vigilia y carta de seguimiento.
+
+La frontera es si un lector que creyó la versión vieja fue inducido a error
+sobre un hecho o una tesis. Si solo se aclara, no.
 
 ## Cómo se audita
 
@@ -56,10 +81,20 @@ tú sin el humano.
 Por cada hallazgo, entrega: **la cita literal**, la regla que roza, **el ADR y
 su fecha**, y una clasificación honesta:
 
+- `ambiguedad` — la frase admite una lectura que **contradice lo que la carta
+  defiende**. La clase más grave: no incumple ninguna regla, así que ningún
+  check la ve, y puede invertir el sentido de un pasaje entero. Busca dónde el
+  texto crea presión de lectura sobre sí mismo —un título, un marco, una
+  palabra cargada— y comprueba si las frases que deben resistir esa presión
+  aguantan.
 - `fuga` — narra el andamiaje sin ganar nada. Se corta.
 - `juicio` — podría ser deliberado y funcionar. Se pregunta.
 - `deuda` — la carta cumple el espíritu pero no la forma nueva (p. ej. le falta
   el campo de firma). Se arregla sin drama.
+
+Para `ambiguedad`, la prueba que funcionó: **busca dentro de la propia carta
+una formulación posterior del mismo argumento**. Si una dice inequívocamente lo
+que la otra deja abierto, la ambigua es la que sobra.
 
 ## Qué escribes
 
