@@ -1,0 +1,66 @@
+# observables.yaml — falsadores declarados de la carta democracia-desde-arriba
+# Registrados 2026-08-31, ANTES de conocer resultados. dp-vigilar revisa los
+# vencidos.
+
+observables:
+  - id: sin-demos-sin-afuera
+    enunciado: >
+      No existe caso histórico de demos amplio y estable cuya población votante
+      no se apoye en algún grupo excluido que soporte costes sin voto
+      (esclavos, aliados súbditos, hinterland, no-propietarios, colonias,
+      mujeres).
+    falsador: >
+      Un caso documentado de autogobierno participativo amplio y duradero sin
+      ningún grupo excluido de ese tipo. Debilitaría L3.
+    fecha_limite: null
+    estado: pendiente
+    resolucion: null
+
+  - id: escalar-mueve-no-quita
+    enunciado: >
+      Ningún rediseño del demos ha eliminado la membrana entre un dentro que
+      decide y un fuera que recibe los efectos sin voto; solo la ha desplazado
+      (de la ciudad a la nación, de la nación a la unión supranacional).
+    falsador: >
+      Una reforma que otorgue voto vinculante a los afectados no-miembros:
+      residentes sin ciudadanía, vecindad exterior, representación con poder
+      real de las generaciones futuras.
+    fecha_limite: null
+    estado: pendiente
+    resolucion: null
+
+  - id: apuesta-UE-2031
+    enunciado: >
+      Apuesta registrada el 2026-08-31, antes del resultado: en los próximos
+      ~5 años ninguna reforma de la Unión Europea eliminará su afuera
+      constitutivo (vecindad, migrantes, afectados por derrame regulatorio sin
+      voto); a lo sumo lo desplazará.
+    falsador: "Una reforma de la UE que sí lo elimine antes de esa fecha."
+    fecha_limite: 2031-08-31
+    estado: pendiente
+    resolucion: null
+
+  - id: desacople-hegemonia-redistribucion
+    enunciado: >
+      La profundidad redistributiva de las democracias del núcleo sigue, con
+      retardo, la posición económica colectiva de ese núcleo.
+    falsador: >
+      Una ampliación redistributiva grande y sostenida en un país del núcleo en
+      declive económico relativo, sin transferencia externa, en la próxima
+      década. Debilitaría la lectura de correlación de L1.
+    fecha_limite: 2036-08-31
+    estado: pendiente
+    resolucion: null
+
+  - id: test-historiografico-L1
+    enunciado: >
+      En los casos centrales, la forma MÁXIMA de autogobierno (demos amplio,
+      cargos pagados, ideología del gobierno popular) no precede claramente a
+      la hegemonía local de esa ciudad.
+    falsador: >
+      Dos o más casos centrales donde la forma máxima es claramente anterior a
+      que la ciudad domine su zona. Obligaría a rebajar L1 aún más, de
+      ilustración a mención.
+    fecha_limite: null
+    estado: pendiente
+    resolucion: null

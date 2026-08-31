@@ -1,0 +1,39 @@
+# manifest.yaml — estado operativo (fuente de verdad, ADR-001 §5)
+# Un agente que retoma la carta lee ESTE fichero primero.
+
+slug: democracia-desde-arriba
+titulo: "Qué pereza, pero me toca ser anarquista"
+
+estado: publicado
+post: /_posts/2026-08-31-que-pereza-pero-me-toca-ser-anarquista.md
+
+destinatarios: [quien-gobierna-en-nombre-de-la-democracia, el-lector-que-hereda-la-palabra]
+dominios:
+  - historia-comparada-del-estado
+  - teoria-de-juegos
+  - filosofia-politica-legitimidad
+  - analisis-del-discurso
+  - sociolinguistica-recepcion
+flancos: [derrotismo-antipolitica, primitivismo-anarquista]
+
+# Gates humanos: los tres resueltos en el gate del 2026-08-31 (opción (a) en
+# los tres). Cero pendientes abiertos.
+pendientes: []
+
+fechas:
+  encargo: 2026-08-31
+  verificacion: 2026-08-31
+  pacto: 2026-08-31
+  publicacion: 2026-08-31
+
+# Siguiente transición: en-vigilia. El observable con vencimiento más próximo
+# es apuesta-UE-2031 (2031-08-31); los demás son continuos.
+
+procedencia: >
+  Un agente, 2026-08-31: motivo del autor ("qué pereza pero me toca ser
+  anarquista") → encargo → verificación web re-levantada desde cero (9
+  búsquedas; casos fechados CON sus contraejemplos, sin herencia) → 4 lecturas
+  por lente → doble red-team por flancos opuestos y nombrados
+  (derrotismo-antipolítica / primitivismo-anarquista) → síntesis + observables
+  → gate humano 2026-08-31 (acuerdos 001-003, opción (a) en los tres) →
+  borrador. Pendiente del gate de aprobación.

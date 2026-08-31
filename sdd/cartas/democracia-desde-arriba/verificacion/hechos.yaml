@@ -1,0 +1,176 @@
+# hechos.yaml — verificación re-levantada desde cero (2026-08-31)
+# Herramienta: buscador web. Ninguna afirmación heredada del hilo del autor.
+# Esta capa NOMBRA casos, fechas y emisores porque una verificación sin
+# referente no es verificable; la carta final abstrae el presente (acuerdo 002).
+
+veredicto_global: >
+  El patrón AGUANTA en su forma DEBIL y CAE en su forma FUERTE.
+  Aguantan sin excepción en la muestra: (L2) el pacto de no-agresion
+  intra-elite y (L3) el demos con afuera constitutivo — no se halla ni un caso
+  de demos amplio y estable sin un grupo excluido que soporte costes sin voto,
+  ni en el mundo antiguo ni en el moderno. Se ESTRECHA: (L1) "la democracia
+  surge de las elites / necesita una ciudad-hegemon" tal cual CAE — el sufragio
+  universal de los s. XIX-XX se conquisto en buena parte de abajo arriba
+  (sindicatos, Segunda Internacional, sufragistas), y polities no hegemonicas
+  (Commonwealth islandesa, cantones suizos, villas francas) practicaron
+  autogobierno sin dominar a nadie. Reformulacion: la hegemonia local —o su
+  sustituto, la seguridad geografica— aporta el excedente y la proteccion que
+  dejan FLORECER la forma maxima y le escriben la ideologia triunfal; no es el
+  origen del autogobierno como tal, ni es necesaria. Se sostiene solo como
+  CORRELACION: la democracia mas redistributiva del nucleo (1945-1975)
+  coincidio con la hegemonia economica colectiva de ese nucleo y decae con
+  ella. (L4) es un condicional de valores, no una afirmacion empirica: la
+  verificacion no la toca; la trabaja el red-team.
+
+sin_demos_sin_afuera: >
+  CONFIRMADO en la muestra revisada. En todos los casos (Atenas, Roma
+  republicana, comunas italianas, Provincias Unidas, EE.UU. fundacional,
+  Commonwealth islandesa) el conjunto que decide se apoya en un grupo que
+  soporta costes sin voto: esclavos, metecos, aliados subditos, contado,
+  no-propietarios, colonias, mujeres. Es la condicion de posibilidad de L3.
+
+citas_que_caen:
+  - cae: "la democracia surge de las elites (version tal cual, sin matiz temporal)"
+    realidad: >
+      El sufragio universal —masculino y luego femenino— de los s. XIX-XX se
+      conquisto en gran medida de abajo arriba: sindicatos y obreras con
+      tacticas de huelga y piquete, la Segunda Internacional (Paris, 1889)
+      incorporando el sufragio femenino como demanda a instancias de Clara
+      Zetkin, las sufragistas. La version que aguanta: la hegemonia financia y
+      da ideologia triunfal a la forma MAXIMA *pre-masas* (censitaria, de
+      elite); la universalizacion posterior se gano contra las elites, pero
+      siguio acotada a la nacion (la verja se mantuvo — L3).
+  - cae: "hace falta que una ciudad sea el hegemon de su zona"
+    realidad: >
+      La Commonwealth islandesa (930-1262), descrita como "sociedad sin
+      Estado", con el Althing (legislatura mas antigua del mundo), no domino a
+      nadie. Cantones suizos y villas francas medievales tuvieron autogobierno
+      sin hegemonia. Matiz que los devuelve a L3: Islandia tenia 39 godar
+      (caudillos) en la logretta, sobre campesinos libres y esclavos
+      (thraellar) — autogobierno OLIGARQUICO y con afuera. La hegemonia es UNA
+      via a la seguridad + excedente que permiten la forma maxima; no es
+      necesaria para el autogobierno fino.
+  - cae: "el tributo del imperio pago la democracia ateniense (version monocausal)"
+    realidad: >
+      La contemporaneidad y el enredo fiscal son firmes: reformas de Efialtes
+      y Pericles 462-461 a.C., pago por jurado y cargos ("democracia radical",
+      permite participar a los thetes), Liga de Delos desde 478 a.C., tesoro
+      trasladado a Atenas 454 a.C. El salto causal estricto (tributo -> salario
+      del jurado) lo discuten los historiadores. Enunciar como contemporaneidad
+      y dependencia fiscal, no como causa unica.
+
+tabla:
+  - afirmacion: >
+      La democracia radical ateniense (Efialtes/Pericles, 462-461 a.C.:
+      Areopago despojado de poder politico, pago por jurado y cargos que
+      permite participar a los thetes) es contemporanea del imperio: Liga de
+      Delos desde 478 a.C., tesoro llevado a Atenas en 454 a.C.
+    fuente: "Yale OYC (curso Ancient Greek History); World History Encyclopedia; National Geographic"
+    fecha: "478-454 a.C.; reformas 462-461 a.C."
+    aguanta: si
+    url: "https://www.worldhistory.org/Delian_League/"
+    nota: >
+      Contemporaneidad y dependencia fiscal, ciertas. Causa unica
+      (tributo -> salario), discutida. El demos ateniense era una minoria de
+      residentes: excluidos esclavos, metecos, mujeres, aliados subditos.
+
+  - afirmacion: >
+      El Conflicto de los Ordenes en Roma (494-287 a.C.) culmina con la Lex
+      Hortensia (287 a.C.), que hace los plebiscitos vinculantes para todos,
+      en la misma ventana en que Roma completa la hegemonia sobre Italia
+      (Guerras Samnitas hasta 290 a.C.; Pirro derrotado 275 a.C.)
+    fuente: "Britannica (Conflict of the Orders); Wikipedia; History Skills"
+    fecha: "494-287 a.C."
+    aguanta: si
+    url: "https://www.britannica.com/topic/Conflict-of-the-Orders"
+    nota: >
+      MATIZ CLAVE para L1: el tribunado de la plebe (494 a.C.) PRECEDE a la
+      hegemonia; lo que coincide con ella es la forma CULMINANTE del poder
+      plebeyo. Apoya "la hegemonia financia la forma maxima", no "la hegemonia
+      crea el autogobierno". La ventaja plebeya era el numero (secessio): se
+      les integra porque se los necesita para la leva.
+
+  - afirmacion: >
+      Las comunas italianas medievales gobiernan la ciudad y su contado
+      (hinterland rural); el 'popolo' que pugna por el poder es el popolo
+      grasso — mercaderes y hombres de negocios ricos, no los comunes; "no
+      eran democracias en sentido moderno: oligarquias de familias mercantiles"
+    fuente: "Britannica (popolo; Italy — the rise of communes)"
+    fecha: "s. XII-XIV"
+    aguanta: si
+    url: "https://www.britannica.com/topic/popolo"
+    nota: "Apoya L2 (pacto intra-elite) y L3 (demos cerrado sobre el contado)."
+
+  - afirmacion: >
+      La Republica holandesa del Siglo de Oro la gobiernan los 'regenten':
+      ~10.000 familias patricias; el acceso exige riqueza y residencia larga;
+      el poder de la Republica deriva del comercio y el capital (VOC, dominio
+      comercial global)
+    fuente: "Wikipedia (Dutch Golden Age); Fiveable/Albert (AP Euro); Britannica"
+    fecha: "1581-1715"
+    aguanta: si
+    url: "https://en.wikipedia.org/wiki/Dutch_Golden_Age"
+    nota: >
+      Apoya L1 (autogobierno republicano maximo <-> hegemonia comercial) y L3
+      (verja estrecha + periferia colonial de la VOC).
+
+  - afirmacion: >
+      En 1789 la mayoria de los 13 estados de EE.UU. exigia propiedad o pago de
+      impuestos para votar; el electorado era ~6% de la poblacion (varones
+      blancos propietarios); en algunos estados el 90% de los varones blancos
+      no calificaba
+    fuente: "Leventhal Map & Education Center; 'Attenuated Democracy' (SLCC); Wikipedia (Timeline of voting rights US)"
+    fecha: "1789"
+    aguanta: si
+    url: "https://collections.leventhalmap.org/search/commonwealth:q524n3142"
+    nota: "'We the People' como conjunto cerrado. Apoya L3."
+
+  - afirmacion: >
+      La universalizacion del sufragio (s. XIX-XX) fue en gran medida un logro
+      de movimientos de masas contra las elites: sindicatos, obreras, la
+      Segunda Internacional (1889, sufragio femenino como demanda), sufragistas
+      con tacticas de huelga/piquete
+    fuente: "Liberation School; The 19th; NPS (International History of US Suffrage)"
+    fecha: "1889-1945 (segun pais)"
+    aguanta: si
+    url: "https://19thnews.org/2020/08/womens-suffrage-centennial-labor-rights/"
+    nota: >
+      HALLAZGO que TUMBA la version fuerte de L1: la forma maxima PUEDE
+      ganarse por abajo. Pero siguio acotada a la nacion (L3 intacta).
+
+  - afirmacion: >
+      El "siglo de oro" del capitalismo y el Estado del bienestar (1945-1975,
+      "liberalismo incrustado", Bretton Woods) se dio "bajo la hegemonia de
+      EE.UU."; su declive desde los anos 70 acompana el ascenso del
+      neoliberalismo
+    fuente: "Ruggie via Springer/Tandfonline (embedded liberalism); Adam Tooze (Chartbook 216)"
+    fecha: "1945-1975; declive desde ~1971-1979"
+    aguanta: parcial
+    url: "https://link.springer.com/chapter/10.1007/978-3-031-49665-3_13"
+    nota: >
+      CORRELACION, no causa. Registrar como coincidencia temporal entre
+      profundidad redistributiva del nucleo y posicion economica colectiva del
+      nucleo; prohibido enunciarlo como "la hegemonia produjo el bienestar".
+
+  - afirmacion: >
+      La Commonwealth islandesa (930-1262): "sociedad sin Estado", Althing =
+      legislatura mas antigua del mundo, sin rey ni poder ejecutivo; logretta
+      de 39 godar (caudillos); la sociedad tenia esclavos (thraellar)
+    fuente: "Wikipedia (Icelandic Commonwealth; Althing); World History Encyclopedia"
+    fecha: "930-1262"
+    aguanta: si
+    url: "https://en.wikipedia.org/wiki/Icelandic_Commonwealth"
+    nota: >
+      CONTRAEJEMPLO de L1 (autogobierno sin hegemonia) y CONFIRMACION de L3
+      (godar + libres sobre esclavos y mujeres; oligarquico).
+
+  - afirmacion: >
+      El "problema de la frontera del demos" es un debate vivo en teoria
+      politica: el principio de todos los afectados (Dahl, Goodin) y el de
+      todos los sometidos (Abizadeh) implican un demos "en principio
+      ilimitado"; todo demos real es un cierre practico y no fundamentado
+    fuente: "Song (Berkeley); Miller (Philosophy Compass 2020); IFFS (Boundary Problem)"
+    fecha: "literatura 2007-2022"
+    aguanta: si
+    url: "https://polisci.berkeley.edu/sites/default/files/people/u3868/Song%20-%20Boundary%20Problem%20in%20Democratic%20Theory.pdf"
+    nota: "Columna vertebral academica de L3 y L4 (el afuera como constitutivo)."
