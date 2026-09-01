@@ -57,6 +57,14 @@ particular:
 - **Ejecuta los movimientos, no los anuncies.** La concesión se hace afirmando
   el valor de lo concedido, sin la palabra «concedo». El falsador se enuncia
   como predicción a secas. Los límites se cumplen no afirmando lo prohibido.
+- **Relee los pasajes concesivos aparte, y con el listón más alto.** Es donde
+  se concentran los fallos: dos de las tres revisiones por lectura humana de
+  la primera carta cayeron ahí. El red-team exige que la concesión esté
+  *hecha* antes del primer «pero», pero no basta con que esté hecha: tiene que
+  ser **legible al primer golpe**. Una concesión que obliga a releer se lee
+  como insincera o confusa, y entonces no concede nada — que es justo el
+  flanco que pretendía cubrir. La compresión que el resto del texto agradece,
+  aquí hace daño.
 - **La extensión la fija el destinatario.** Pregunta por cada párrafo: ¿para
   quién es, y ya lo sabía?
 - **Autocontenida en sentido.** Toda referencia carga lo que refiere. Ninguna

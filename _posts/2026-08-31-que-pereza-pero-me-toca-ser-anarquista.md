@@ -39,8 +39,8 @@ lleva quince años aquí sin papeles, la vecindad al otro lado, el que nacerá e
 ciudad a la nación, de la nación a la Unión Europea. No ha desaparecido ni una
 vez.
 
-Eso no le quita legitimidad. Le quita una: la de creer que su autoridad sube de
-un abajo sin fondo. Sube de un abajo con puerta, y usted tiene la llave sin
+Eso no le quita legitimidad. Le quita una comodidad: creer que su autoridad
+sube de un abajo sin fondo. Ese abajo tiene puerta, y usted tiene la llave sin
 haberla pedido.
 
 Lo malo es que también me alcanza a mí.

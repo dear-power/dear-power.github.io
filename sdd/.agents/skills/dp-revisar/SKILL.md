@@ -99,6 +99,19 @@ Para `ambiguedad`, la prueba que funcionó: **busca dentro de la propia carta
 una formulación posterior del mismo argumento**. Si una dice inequívocamente lo
 que la otra deja abierto, la ambigua es la que sobra.
 
+**Empieza por los pasajes concesivos.** Ahí se concentran: dos de las tres
+revisiones por lectura humana de la primera carta cayeron en el aparato de
+concesión —la apertura y la guarda contra el flanco derrotismo—. Son los sitios
+donde el texto le da algo al destinatario antes de apretar, y donde la
+compresión hace más daño. Dos defectos típicos, los dos vistos en real:
+
+- **El sustantivo que cambia de tipo a mitad de frase.** «No le quita
+  legitimidad. Le quita una…» — incontable y luego contable, sin antecedente
+  para «una». Se lee como contradicción literal.
+- **La aposición que no cuadra de tipo.** «una [legitimidad]: la de *creer*
+  que…» — creer no es una legitimidad. La aposición promete aclarar y cambia de
+  categoría.
+
 ## Qué escribes
 
 `sdd/cartas/<slug>/revisiones/NNN-<fecha>.md`: contra qué doctrina se revisó,
