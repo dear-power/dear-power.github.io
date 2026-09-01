@@ -50,8 +50,18 @@ que `[[...]]` no puede renderizarse. El wikilink se resuelve a la forma nativa:
 [las dos fuerzas ... son aliadas naturales]({% post_url 2026-07-06-el-aliado-natural-del-pp-es-el-psoe %})
 ```
 
-`post_url` se elige sobre una URL escrita a mano porque **falla en build si el
-post no existe**: la arista queda verificada por el propio despliegue, gratis.
+`post_url` se elige sobre una URL escrita a mano porque **una arista rota es
+un error de build, no un enlace 404 silencioso**. Pero eso no se delega en el
+despliegue: un build fallido tira el sitio **entero**, no solo esa página. La
+arista la verifica `enlaces.sh` antes del commit (todo `{% post_url X %}` de
+un post resuelve a `_posts/X.md`; nada de forma sin argumento). El build de
+Pages es la última red, no la primera.
+
+**Nunca metas `{% ... %}` de ejemplo fuera de `_posts/`.** Liquid corre antes
+que Markdown y no respeta los backticks: `{% post_url %}` sin argumento dentro
+de un fichero de `sdd/` tiró el build el 2026-09-01. Por eso `sdd/` y
+`.claude/` están en `exclude` de `_config.yml`, y `enlaces.sh` falla si esas
+exclusiones desaparecen.
 
 El `depende_de` se copia tal cual al front matter del post, igual que `lang`,
 `to` y `signoff`.

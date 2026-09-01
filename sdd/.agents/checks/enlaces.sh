@@ -56,7 +56,7 @@ for b in sdd/cartas/*/borrador.md; do
   done
 done
 
-# --- 4-5: posts publicados -------------------------------------------------
+# --- 4-6: posts publicados -----------------------------------------------
 for p in _posts/*.md; do
   [ -e "$p" ] || continue
   if body "$p" | grep -q '\[\['; then
@@ -67,7 +67,33 @@ for p in _posts/*.md; do
   for d in $pdecl; do
     [ -n "$(post_de "$d")" ] || { echo "FALLO [$p] depende_de '$d' no existe"; fail=1; }
   done
+  # cada {% post_url X %} debe resolver a un fichero real; la forma sin
+  # argumento es un error DURO de Liquid que tira el build entero (build
+  # roto 2026-09-01: {% post_url %} sin slug dentro de sdd/)
+  body "$p" | grep -o '{%[[:space:]]*post_url[^%]*%}' | while read -r tag; do
+    arg=$(printf '%s' "$tag" | sed 's/{%[[:space:]]*post_url[[:space:]]*//; s/[[:space:]]*%}//')
+    if [ -z "$arg" ]; then
+      echo "FALLO [$p] '{% post_url %}' sin argumento — error duro de Liquid, rompe el build"
+      fail=1
+    elif [ ! -f "_posts/${arg}.md" ]; then
+      echo "FALLO [$p] {% post_url $arg %} no resuelve a _posts/${arg}.md"
+      fail=1
+    fi
+  done
 done
+
+# --- 7: sdd/ y .claude/ fuera del build --------------------------------
+# sdd/ contiene ejemplos de Liquid ({% post_url %}, {% raw %}...) que rompen
+# el build si Jekyll los procesa. Si alguien quita estas exclusiones, el
+# árbol entero se vuelve una mina.
+if [ -f _config.yml ]; then
+  for dir in "sdd/" ".claude/"; do
+    grep -qE "^[[:space:]]*-[[:space:]]*${dir%/}/?[[:space:]]*$" _config.yml || {
+      echo "FALLO [_config.yml] no excluye '$dir' del build de Jekyll (ADR/infra: build roto 2026-09-01)"
+      fail=1
+    }
+  done
+fi
 
 # --- grafo inverso ---------------------------------------------------------
 echo ""
