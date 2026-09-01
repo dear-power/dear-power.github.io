@@ -23,3 +23,8 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  # sdd/ es el árbol de deliberación, no contenido del sitio. Se lee en GitHub
+  # (las `procedencia:` apuntan ahí), no en Pages. Además contiene ejemplos de
+  # Liquid ({% post_url %}) que romperían el build si Jekyll los procesara.
+  - sdd/
+  - .claude/
