@@ -9,7 +9,7 @@ titulo: "Setenta mil salieron. Cincuenta mil habían entrado. [PENDING: ver pend
 estado: borrador
 
 # Anomalía declarada (la reconoce estado.sh y degrada el fallo a aviso):
-anomalia: "caso semilla — el borrador se escribió antes de que existiera la máquina de estados, con dos gates aún abiertos. No se publica hasta resolverlos; se conserva tal cual como registro de cómo era el método antes de tener forma."
+anomalia: "caso semilla — el borrador se escribió el 2026-08-11, antes de que existieran la máquina de estados y ADR-002, con gates abiertos. No se publica hasta resolverlos; se conserva tal cual como registro de cómo era el método antes de tener forma. Auditado contra la doctrina vigente en revisiones/001-2026-09-01.md."
 
 destinatarios: [quien-cuenta-la-puerta, el-lector-frente-al-relato]
 dominios:
@@ -22,15 +22,18 @@ dominios:
 flancos: [negacionismo, conspiranoia]
 
 pendientes:
-  - id: acuerdo-003
-    que: "¿la cadena pública de una carta abstracta nombra el caso concreto? (acuerdos/003, estado: propuesto)"
+  - id: destinatario
+    que: "¿la carta es un ADDRESS a un poder (quien-cuenta-la-puerta) o una HERRAMIENTA para un lector (el-lector-frente-al-relato)? El encargo declara los dos y ADR-002 §2 dice que el destinatario fija registro y extensión: con dos, no lo fija nadie. Decide 4 de los 8 hallazgos de revisiones/001-2026-09-01.md (los marcados ⇄)."
+  - id: registro-adr-002
+    que: "deuda de ADR-002 (la carta es de 20 días antes que el ADR): 3 fugas inequívocas a cortar + 4 en juicio pendientes del destinatario + firma y campos de publicación ausentes. Ver revisiones/001-2026-09-01.md."
   - id: titulo
-    que: "el título de trabajo usa la cifra '50.000', que CAYÓ en verificación (sin fuente); candidato coherente con lo verificado: «Setenta y dos mil entraron. Setenta mil salieron.»"
+    que: "el título usa la cifra '50.000', que CAYÓ en verificación (sin fuente). El cuerpo ya es coherente con lo verificado; solo el título está desalineado. Candidato: «Setenta y dos mil entraron. Setenta mil salieron.»"
 
 fechas:
   encargo: 2026-08-11
   verificacion: 2026-08-11
-  pacto: null          # gates 001 y 002 resueltos 2026-08-11; 003 abierto
+  pacto: null          # 001 y 002 resueltos 2026-08-11; 003 ratificado 2026-09-01;
+                       # quedan 3 pendientes NO cubiertos por acuerdos (ver arriba)
   publicacion: null
 
 procedencia: "ensemble de 10 agentes (1 verificador con buscador web local + 6 lecturas por dominio + 2 red-teams + síntesis), 2026-08-11; verificación re-levantada desde cero, sin herencia del material previo"
